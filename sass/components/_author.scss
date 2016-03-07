@@ -1,0 +1,12 @@
+.author {
+	&-name {
+		text-transform: uppercase;
+		margin-top: -10px;
+	}
+
+	&-desc {
+		font-size: 18px;
+		font-weight: 600;
+		color: #4b4b4b;
+	}
+}

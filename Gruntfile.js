@@ -14,6 +14,7 @@ module.exports = function (grunt) {
 				}],
 			},
 		},
+		
 
 		cssmin: {
 			options: {
@@ -22,11 +23,11 @@ module.exports = function (grunt) {
 			},
 			target: {
 				files: {
-					'style.min.css': ['style.css']
+					'assets/css/master.min.css': ['assets/css/master.css']
 				}
 			}
 		},
-
+		
 		autoprefixer:{
 			dist: {
 				files: {
